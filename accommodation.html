@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Travelokal Penang - Accommodation</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="icon/favicon.png" sizes="64x64" type="image/png">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</head>
+<body>
+
+<!-- Header with logo and navigation -->
+<header class="header-container">
+
+  <div class="logo">
+   <a href="index.html">
+    <img src="icon/logo.png" alt="Logo" class="logo-img">
+   </a>
+  </div>
+  
+  <!-- Date and Time Section -->
+  <div id="date-time"></div>
+  
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navMenu">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+	  
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown">
+		    <a class="dropdown-toggle" data-toggle="dropdown">About <span class="caret"></span></a>
+			  <ul class="dropdown-menu">
+			    <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="history.html">History</a></li>
+		      </ul>
+		  </li>
+		  
+          <li class="dropdown">
+		    <a class="dropdown-toggle" data-toggle="dropdown">Destination <span class="caret"></span></a>
+			  <ul class="dropdown-menu">
+			    <li><a href="bestexplore.html">Top 3 Places to Explore</a></li>
+                <li><a href="bestvisit.html">Top 3 Must-Visit Spots</a></li>
+                <li><a href="besthistorical.html">Top 3 Historical Sites</a></li>
+		      </ul>
+		  </li>
+
+          <li class="dropdown">
+		    <a class="dropdown-toggle" data-toggle="dropdown">Taste of Penang <span class="caret"></span></a>
+			  <ul class="dropdown-menu">
+			    <li><a href="taste1.html">Penang Signature Flavors</a></li>
+                <li><a href="taste2.html">Dining Hotspots</a></li>
+		      </ul>
+		  </li>
+		
+	      <li>
+            <a href="accommodation.html">Accommodation</a>
+          </li>	
+	  
+          <li class="dropdown">
+		    <a class="dropdown-toggle" data-toggle="dropdown">Emergencies <span class="caret"></span></a>
+			  <ul class="dropdown-menu">
+			    <li><a href="esps.html">Seberang Perai Selatan</a></li>
+                <li><a href="espt.html">Seberang Perai Tengah</a></li>
+                <li><a href="espu.html">Seberang Perai Utara</a></li>
+                <li><a href="edtl.html">Timur Laut</a></li>
+                <li><a href="edbd.html">Barat Daya</a></li>
+		      </ul>
+		  </li>
+
+	      <li>
+            <a href="faq.html">FAQ</a>
+          </li>	
+	  
+          <li class="dropdown">
+		    <a class="dropdown-toggle" data-toggle="dropdown">Contact <span class="caret"></span></a>
+			  <ul class="dropdown-menu">
+			    <li><a href="contactus.html">Contact Us</a></li>
+                <li><a href="visitus.html">Visit Us</a></li>
+		      </ul>
+		  </li>
+	    </ul>
+      </div>
+    </div>
+  </nav>
+  
+</header>
+
+<!-- Content Section -->
+<div class="container text-center">
+  <h2>Our Best Pick Hotels</h2>
+  <p>Here are the best hotels that will ensure your stay in Penang is as pleasant, as it is memorable.</p><br>
+
+  <!-- Penang Island Hotels -->
+  <h3>Penang Island Hotels</h3>
+  <ul class="list-unstyled">
+    <li>
+      <!-- Berjaya Penang Hotel -->
+      <h4>Berjaya Penang Hotel</h4><br>
+      
+      <!-- Carousel for Berjaya Penang Hotel -->
+      <div id="carouselBerjayaPenangHotel" class="carousel slide" data-ride="carousel">
+        
+        <!-- Carousel Items -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="images/berjaya-penang-hotel-1.png" alt="Berjaya Penang Hotel Image 1" class="img-responsive">
+          </div>
+          <div class="item">
+            <img src="images/berjaya-penang-hotel-2.png" alt="Berjaya Penang Hotel Image 2" class="img-responsive">
+          </div>
+          <div class="item">
+            <img src="images/berjaya-penang-hotel-3.png" alt="Berjaya Penang Hotel Image 3" class="img-responsive">
+          </div>
+        </div>
+        
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carouselBerjayaPenangHotel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#carouselBerjayaPenangHotel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+      </div><br>
+      <p>Location: 1-Stop Midlands Park, Jalan Burma, 10350 George Town, Pulau Pinang</p>
+      <p>Phone: 04-227 7111</p>
+      <p><a href="https://www.berjayahotel.com/" target="_blank">Visit Website</a></p>
+    </li>
+    
+    <li>
+      <!-- Royale Chulan Penang -->
+      <h4>Royale Chulan Penang</h4><br>
+      
+      <!-- Carousel for Royale Chulan Penang -->
+      <div id="carouselRoyaleChulanPenang" class="carousel slide" data-ride="carousel">
+        
+        <!-- Carousel Items -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="images/royale-chulan-penang-1.png" alt="Royale Chulan Penang Image 1" class="img-responsive">
+          </div>
+          <div class="item">
+            <img src="images/royale-chulan-penang-2.png" alt="Royale Chulan Penang Image 2" class="img-responsive">
+          </div>
+          <div class="item">
+            <img src="images/royale-chulan-penang-3.png" alt="Royale Chulan Penang Image 3" class="img-responsive">
+          </div>
+        </div>
+        
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carouselRoyaleChulanPenang" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#carouselRoyaleChulanPenang" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+      </div><br>
+      <p>Location: No 1 & 2, Pengkalan Weld, Georgetown, 10300 George Town, Penang</p>
+      <p>Phone: 04-259 8888</p>
+      <p><a href="https://www.royalechulan.com/" target="_blank">Visit Website</a></p>
+    </li>
+    
+    <li>
+      <!-- Sunway Hotel Georgetown -->
+      <h4>Sunway Hotel Georgetown</h4><br>
+      
+      <!-- Carousel for Sunway Hotel Georgetown -->
+      <div id="carouselSunwayHotelGeorgetown" class="carousel slide" data-ride="carousel">
+        
+        <!-- Carousel Items -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="images/sunway-hotel-georgetown-1.png" alt="Sunway Hotel Georgetown Image 1" class="img-responsive">
+          </div>
+          <div class="item">
+            <img src="images/sunway-hotel-georgetown-2.png" alt="Sunway Hotel Georgetown Image 2" class="img-responsive">
+          </div>
+          <div class="item">
+            <img src="images/sunway-hotel-georgetown-3.png" alt="Sunway Hotel Georgetown Image 3" class="img-responsive">
+          </div>
+        </div>
+        
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carouselSunwayHotelGeorgetown" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#carouselSunwayHotelGeorgetown" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+      </div><br>
+      <p>Location: 33, Lorong Baru, George Town, 10400 George Town, Pulau Pinang</p>
+      <p>Phone: 04-229 9988</p>
+      <p><a href="https://www.sunwayhotels.com/" target="_blank">Visit Website</a></p>
+    </li>
+
+  </ul><br>
+
+  <!-- Penang Mainland Hotels -->
+  <h3>Penang Mainland Hotels</h3>
+  <ul class="list-unstyled">
+    <li>
+      <!-- Pearl View Hotel -->
+      <h4>Pearl View Hotel</h4><br>
+      
+      <!-- Carousel for Pearl View Hotel -->
+      <div id="carouselPearlView" class="carousel slide" data-ride="carousel">
+        
+        <!-- Carousel Items -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="images/pearl-view-hotel-1.png" alt="Pearl View Hotel Image 1" class="img-responsive">
+          </div>
+          <div class="item">
+            <img src="images/pearl-view-hotel-2.png" alt="Pearl View Hotel Image 2" class="img-responsive">
+          </div>
+          <div class="item">
+            <img src="images/pearl-view-hotel-3.png" alt="Pearl View Hotel Image 3" class="img-responsive">
+          </div>
+        </div>
+        
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carouselPearlView" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#carouselPearlView" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+      </div><br>
+      <p>Location: Jln Baru, Taman Chai Leng, 13700 Perai, Pulau Pinang</p>
+      <p>Phone: 04-398 9888</p>
+      <p><a href="https://pearlviewhotel.my/" target="_blank">Visit Website</a></p>
+    </li>
+    
+    <li>
+      <!-- Iconic Hotel -->
+      <h4>Iconic Hotel</h4><br>
+      
+      <!-- Carousel for Iconic Hotel -->
+      <div id="carouselIconicHotel" class="carousel slide" data-ride="carousel">
+        
+        <!-- Carousel Items -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="images/iconic-hotel-1.png" alt="Iconic Hotel Image 1" class="img-responsive">
+          </div>
+          <div class="item">
+            <img src="images/iconic-hotel-2.png" alt="Iconic Hotel Image 2" class="img-responsive">
+          </div>
+          <div class="item">
+            <img src="images/iconic-hotel-3.png" alt="Iconic Hotel Image 3" class="img-responsive">
+          </div>
+        </div>
+        
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carouselIconicHotel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#carouselIconicHotel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+      </div><br>
+      <p>Location: 71, Jln Icon City, Bukit Tengah, 14000 Bukit Mertajam, Pulau Pinang</p>
+      <p>Phone: 04-505 9988</p>
+      <p><a href="https://iconichotel.com.my/" target="_blank">Visit Website</a></p>
+    </li>
+    
+    <li>
+      <!-- The Light Hotel -->
+      <h4>The Light Hotel</h4><br>
+      
+      <!-- Carousel for The Light Hotel -->
+      <div id="carouselTheLightHotel" class="carousel slide" data-ride="carousel">
+        
+        <!-- Carousel Items -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="images/the-light-hotel-1.png" alt="The Light Hotel Image 1" class="img-responsive">
+          </div>
+          <div class="item">
+            <img src="images/the-light-hotel-2.png" alt="The Light Hotel Image 2" class="img-responsive">
+          </div>
+          <div class="item">
+            <img src="images/the-light-hotel-3.png" alt="The Light Hotel Image 3" class="img-responsive">
+          </div>
+        </div>
+        
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carouselTheLightHotel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#carouselTheLightHotel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+      </div><br>
+      <p>Location: Lebuh Tenggiri 2, 13700 Seberang Jaya, Pulau Pinang</p>
+      <p>Phone: 04-382 1111</p>
+      <p><a href="https://thelighthotelpg.com/" target="_blank">Visit Website</a></p>
+    </li>
+  </ul><br>
+</div>
+
+  <p class="date-info">
+    <i>Last Updated:</i> <span id="last-updated"></span>
+  </p><br>
+  
+  <script>
+    document.getElementById('last-updated').innerText = new Date(document.lastModified).toDateString();
+  </script>
+
+<!-- Scroll to Top/Bottom -->
+<div class="scroll-buttons">
+  <button id="scrollUp" class="scroll-btn"><i class="fas fa-arrow-up"></i></button>
+  <button id="scrollDown" class="scroll-btn"><i class="fas fa-arrow-down"></i></button>
+</div>
+
+<script>
+  document.getElementById('scrollUp').addEventListener('click', function () {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+
+  document.getElementById('scrollDown').addEventListener('click', function () {
+    window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+  });
+</script>
+
+<!-- Footer -->
+<footer>
+  <div class="footer-container">
+    <div class="footer-section office-info">
+      <h4>Office Information</h4>
+      <p>Travelokal Penang Office,</p>
+      <p>Tingkat 30, KOMTAR,</p>
+	  <p>10000 George Town, Penang</p>
+      <p>Phone: +6012 3456 789</p>
+    </div>
+	
+	<div class="footer-social">
+      <a href="https://www.facebook.com/travelokalpenang" target="_blank" class="social-link">
+        <i class="fa-brands fa-facebook"></i></a>
+      <a href="https://x.com/travelokalpng?s=21" target="_blank" class="social-link">
+        <i class="fa-brands fa-twitter"></i></a>
+      <a href="https://www.instagram.com/travellokal_penang?igsh=NTZyank3NzBwbXgx&utm_source=qr" target="_blank" class="social-link">
+        <i class="fa-brands fa-instagram"></i></a>
+    </div>	
+	
+    <div class="footer-section opening-hours">
+      <h4>Opening Hours</h4>
+      <p>Monday - Friday: 9 AM - 5 PM</p>
+      <p>Saturday: 10 AM - 2 PM</p>
+      <p>Sunday: Closed</p>
+    </div>
+  </div>
+
+  <div class="footer-copyright">
+    <p>&copy; 2024 Travelokal Penang. All Rights Reserved. | Disclaimer: For the best experience, use modern browsers like Google Chrome, and enable desktop site mode on mobile devices.</p>
+  </div>
+</footer>

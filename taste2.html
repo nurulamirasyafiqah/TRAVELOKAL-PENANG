@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Travelokal Penang - Dining Hotspot</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="icon/favicon.png" sizes="64x64" type="image/png">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</head>
+<body class="taste1-page">
+
+<!-- Header with logo and navigation -->
+<header class="header-container">
+
+  <div class="logo">
+   <a href="index.html">
+    <img src="icon/logo.png" alt="Logo" class="logo-img">
+   </a>
+  </div>
+  
+  <!-- Date and Time Section -->
+  <div id="date-time"></div>
+  
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navMenu">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+	  
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown">
+		    <a class="dropdown-toggle" data-toggle="dropdown">About <span class="caret"></span></a>
+			  <ul class="dropdown-menu">
+			    <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="history.html">History</a></li>
+		      </ul>
+		  </li>
+		  
+          <li class="dropdown">
+		    <a class="dropdown-toggle" data-toggle="dropdown">Destination <span class="caret"></span></a>
+			  <ul class="dropdown-menu">
+			    <li><a href="bestexplore.html">Top 3 Places to Explore</a></li>
+                <li><a href="bestvisit.html">Top 3 Must-Visit Spots</a></li>
+                <li><a href="besthistorical.html">Top 3 Historical Sites</a></li>
+		      </ul>
+		  </li>
+
+          <li class="dropdown">
+		    <a class="dropdown-toggle" data-toggle="dropdown">Taste of Penang <span class="caret"></span></a>
+			  <ul class="dropdown-menu">
+			    <li><a href="taste1.html">Penang Signature Flavors</a></li>
+                <li><a href="taste2.html">Dining Hotspots</a></li>
+		      </ul>
+		  </li>
+		
+	      <li>
+            <a href="accommodation.html">Accommodation</a>
+          </li>	
+	  
+          <li class="dropdown">
+		    <a class="dropdown-toggle" data-toggle="dropdown">Emergencies <span class="caret"></span></a>
+			  <ul class="dropdown-menu">
+			    <li><a href="esps.html">Seberang Perai Selatan</a></li>
+                <li><a href="espt.html">Seberang Perai Tengah</a></li>
+                <li><a href="espu.html">Seberang Perai Utara</a></li>
+                <li><a href="edtl.html">Timur Laut</a></li>
+                <li><a href="edbd.html">Barat Daya</a></li>
+		      </ul>
+		  </li>
+
+	      <li>
+            <a href="faq.html">FAQ</a>
+          </li>	
+	  
+          <li class="dropdown">
+		    <a class="dropdown-toggle" data-toggle="dropdown">Contact <span class="caret"></span></a>
+			  <ul class="dropdown-menu">
+			    <li><a href="contactus.html">Contact Us</a></li>
+                <li><a href="visitus.html">Visit Us</a></li>
+		      </ul>
+		  </li>
+	    </ul>
+      </div>
+    </div>
+  </nav>
+  
+</header>
+
+<!-- Content Section -->
+<div class="container text-center">
+  <h2>Top 7 Dining Hotspots in Penang</h2>
+  <p>Explore the best dining experiences Penang has to offer.</p><br><hr>
+  
+  <!-- Laksa Kuah Pekat, Bayan Baru -->
+  <div class="content-item">
+    <img src="food-images/hotspot1.jpg" alt="Laksa Kuah Pekat" class="content-image">
+    <div class="content-text">
+      <h3>Laksa Kuah Pekat</h3>
+      <p>
+        Indulge in a bowl of thick, flavorful laksa broth served with rice noodles, fresh vegetables, and a hint of tangy lime. This is a must-visit for those craving authentic Penang-style laksa. 
+      </p>
+      <button class="read-more-btn" onclick="toggleDetails('laksa-details')">Read More</button>
+      <div id="laksa-details" class="more-info" style="display: none;">
+        <p><strong>Location:</strong> Jalan Mahsuri, Bayan Baru, 11900 Bayan Lepas, Pulau Pinang</p>
+		<div class="map-container">
+	     <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3025.99377355296!2d100.28823659999999!3d5.326956099999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ac14aedbd6389%3A0x2f5c213e066efc1f!2sLaksa%20Kuah%20Pekat!5e1!3m2!1sen!2smy!4v1736306416008!5m2!1sen!2smy" 
+            width="100%" 
+            height="300" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+         </iframe>
+        </div>
+        <p><strong>Contact Number:</strong> 014-250 4956</p>
+        <p><strong>Operating Hours:</strong> 10:00 AM - 8:30 PM (Monday-Sunday, Friday Closed)</p>
+      </div>
+    </div>
+  </div>
+  
+  <hr>
+
+  <!-- Nasi Kandar Deen Maju, George Town -->
+  <div class="content-item">
+    <img src="food-images/hotspot2.jpg" alt="Nasi Kandar Deen Maju" class="content-image">
+    <div class="content-text">
+      <h3>Nasi Kandar Deens Maju</h3>
+      <p>
+        A beloved nasi kandar spot renowned for its flavorful curries and perfectly spiced fried chicken. Locals and tourists alike queue up daily for their signature dishes that pair beautifully with aromatic steamed rice.
+      </p>
+      <button class="read-more-btn" onclick="toggleDetails('deenmaju-details')">Read More</button>
+      <div id="deenmaju-details" class="more-info" style="display: none;">
+        <p><strong>Location:</strong> 170, Jalan Gurdwara, 10300 George Town, Pulau Pinang</p>
+		<div class="map-container">
+	     <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3025.582966174971!2d100.32554997349706!3d5.409737135106244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ac3eb3d43b56d%3A0x946f6008bc1c0dac!2sDeens%20Maju%20Nasi%20Kandar!5e1!3m2!1sen!2smy!4v1736306539844!5m2!1sen!2smy" 
+            width="100%" 
+            height="300" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+         </iframe>
+        </div>
+        <p><strong>Contact Number:</strong> 012-425 2421</p>
+        <p><strong>Operating Hours:</strong> 12:00 PM - 10 PM (Monday-Sunday, Friday Closed)</p>
+      </div>
+    </div>
+  </div>
+  
+  <hr>
+
+  <!-- Gani Famous Pasembur, George Town -->
+  <div class="content-item">
+    <img src="food-images/hotspot3.jpg" alt="Gani Famous Pasembur" class="content-image">
+    <div class="content-text">
+      <h3>Gani Famous Pasembur</h3>
+      <p>
+        This vibrant dish combines fresh vegetables, tofu, seafood fritters, and boiled eggs, drenched in a sweet and spicy peanut sauce.
+      </p>
+      <button class="read-more-btn" onclick="toggleDetails('pasembur-details')">Read More</button>
+      <div id="pasembur-details" class="more-info" style="display: none;">
+        <p><strong>Location:</strong> Medan Renong, 3, Padang Kota Lama, Jalan Tun Syed Sheh Barakbah, 10200 George Town, Penang</p>
+		<div class="map-container">
+	     <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3025.516515849771!2d100.33789337349711!3d5.423009034975766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ac384e3089a29%3A0x290e89a90965e242!2sGANI%20Famous%20Pasembur!5e1!3m2!1sen!2smy!4v1736306628100!5m2!1sen!2smy" 
+            width="100%" 
+            height="300" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+         </iframe>
+        </div>
+        <p><strong>Contact Number:</strong> 017-202 0460</p>
+        <p><strong>Operating Hours:</strong> 11:00 AM - 1:00 AM (Monday-Sunday)</p>
+      </div>
+    </div>
+  </div>
+  
+  <hr>
+
+  <!-- Penang Road Famous Teochew Chendul -->
+  <div class="content-item">
+    <img src="food-images/hotspot4.jpg" alt="Penang Road Famous Teochew Chendul" class="content-image">
+    <div class="content-text">
+      <h3>Penang Road Famous Teochew Chendul</h3>
+      <p>
+        Beat the tropical heat with this iconic dessert, featuring shaved ice, pandan jelly, creamy coconut milk, and sweet gula Melaka (palm sugar). A refreshing treat that’s synonymous with Penang!
+      </p>
+      <button class="read-more-btn" onclick="toggleDetails('chendul-details')">Read More</button>
+      <div id="chendul-details" class="more-info" style="display: none;">
+        <p><strong>Location:</strong> 435B, Lebuh Pantai, George Town, 10300 George Town, Pulau Pinang</p>
+		<div class="map-container">
+	     <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48412.03571414078!2d100.27747311888805!3d5.3757826246014595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ac396f08ab391%3A0x1aa1f039a9d940ba!2sPenang%20Road%20Famous%20Teochew%20Chendul!5e1!3m2!1sen!2smy!4v1736306699475!5m2!1sen!2smy" 
+            width="100%" 
+            height="300" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+         </iframe>
+        </div>
+        <p><strong>Contact Number:</strong> 04-262 6002</p>
+        <p><strong>Operating Hours:</strong> 9:00 AM - 6:30 PM (Monday-Sunday)</p>
+      </div>
+    </div>
+  </div>
+  
+  <hr>
+
+  <!-- Hameed Pata Special Mee Sotong, George Town -->
+  <div class="content-item">
+    <img src="food-images/hotspot5.jpg" alt="Hameed Pata Special Mee Sotong" class="content-image">
+    <div class="content-text">
+      <h3>Hameed Pata Special Mee Sotong</h3>
+      <p>
+        This iconic dish features fried noodles cooked with a spicy, tangy squid sambal. Located at Esplanade Food Court, it’s the ultimate comfort food for spice lovers looking for a unique twist.
+      </p>
+      <button class="read-more-btn" onclick="toggleDetails('meesotong-details')">Read More</button>
+      <div id="meesotong-details" class="more-info" style="display: none;">
+        <p><strong>Location:</strong> Esplanade Park, 5, Lebuh Light, Georgetown, 10300 George Town, Penang</p>
+		<div class="map-container">
+	     <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3025.525325704688!2d100.34033617349709!3d5.42125133499307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ac394a6effa67%3A0x55a2e415f7cccc3b!2sHameed%20Pata%20Mee%20Sotong!5e1!3m2!1sen!2smy!4v1736306804836!5m2!1sen!2smy" 
+            width="100%" 
+            height="300" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+         </iframe>
+        </div>
+        <p><strong>Contact Number:</strong> 013-431 9384</p>
+        <p><strong>Operating Hours:</strong> 11:00 AM - 8:00 PM (Monday-Saturday, Sunday Closed)</p>
+      </div>
+    </div>
+  </div>
+  
+  <hr>
+  
+  <!-- Ida Mee Udang Sungai Dua, Butterworth -->
+  <div class="content-item">
+    <img src="food-images/hotspot6.jpg" alt="Ida Mee Udang Sungai Dua" class="content-image">
+    <div class="content-text">
+      <h3>Ida Mee Udang Sungai Dua</h3>
+      <p>
+        Known for its fresh and succulent prawns, Ida Mee Udang serves mouthwatering prawn noodles in a flavorful broth. The combination of sweetness and umami in every bite makes this worth it to try!
+      </p>
+      <button class="read-more-btn" onclick="toggleDetails('meeudang-details')">Read More</button>
+      <div id="meeudang-details" class="more-info" style="display: none;">
+        <p><strong>Location:</strong> 3640, Jln Sungai Dua, 13800 Butterworth, Pulau Pinang</p>
+		<div class="map-container">
+	     <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3025.400074400174!2d100.41936297349726!3d5.446187734747262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ac56bc5fa4b2b%3A0xc7c524177bb88f79!2sIda%20Mee%20Udang%20Sungai%20Dua!5e1!3m2!1sen!2smy!4v1736306888711!5m2!1sen!2smy" 
+            width="100%" 
+            height="300" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+         </iframe>
+        </div>
+        <p><strong>Contact Number:</strong> 017-472 2109</p>
+        <p><strong>Operating Hours:</strong> 1:00 PM - 1:00 AM (Monday-Sunday, Teusday Closed)</p>
+      </div>
+    </div>
+  </div>
+  
+  <hr>
+  
+  <!-- Nasi 7 Benua Koo Boo Café, Bayan Lepas -->
+  <div class="content-item">
+    <img src="food-images/hotspot7.jpg" alt="Nasi 7 Benua Koo Boo Café" class="content-image">
+    <div class="content-text">
+      <h3>Nasi 7 Benua Koo Boo Café</h3>
+      <p>
+        A unique dining experience where diners can sample seven different types of rice in one meal, each infused with distinct flavors and colors. Pair this with their delicious side dishes for a truly unforgettable feast.
+      </p>
+      <button class="read-more-btn" onclick="toggleDetails('nasi7benua-details')">Read More</button>
+      <div id="nasi7benua-details" class="more-info" style="display: none;">
+        <p><strong>Location:</strong> Jalan Tun Dr Awang, Taman Tunas Muda, 11900 Bayan Lepas, Pulau Pinang</p>
+		<div class="map-container">
+	     <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3025.9967037397346!2d100.27509377349661!3d5.326361035919259!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ac015ce455947%3A0x3b3e19107476c85b!2sNasi%207%20Benua%20Koo%20Boo%20Cafe!5e1!3m2!1sen!2smy!4v1736306953119!5m2!1sen!2smy" 
+            width="100%" 
+            height="300" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+         </iframe>
+        </div>
+        <p><strong>Contact Number:</strong> 012-501 6412</p>
+        <p><strong>Operating Hours:</strong> 11:00 AM - 4:00 PM (Monday-Saturday, Sunday Closed)</p>
+      </div>
+    </div>
+  </div>
+  
+  <hr>
+  
+  <br>
+  <h2>Additional Dining Hotpots for Western Food Hunters!</h2>
+  <br>
+  
+  <!-- Pak Mat Western Cafe -->
+  <div class="content-item">
+    <img src="food-images/hotspot8.jpg" alt="Pak Mat Western" class="content-image">
+    <div class="content-text">
+      <h3>Pak Mat Western Cafe</h3>
+      <p>
+        For those looking for a fusion of Western and Malaysian flavors, Pak Mat Western serves hearty meals like chicken chop, lamb steak, and spaghetti with a local twist. Affordable and delicious, it’s a hidden gem you’ll want to discover.
+      </p>
+      <button class="read-more-btn" onclick="toggleDetails('pakmatwestern-details')">Read More</button>
+      <div id="pakmatwestern-details" class="more-info" style="display: none;">
+        <p><strong>Location:</strong> No. 6 Jalan Industri Tangkas 2 Taman Industri Tangkas Kampung Sekolah, Juru, 14000 Bukit Mertajam, Pulau Pinang</p>
+		<div class="map-container">
+	     <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12104.047503845446!2d100.43263416488755!3d5.323278791219952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ac80d907ecbdd%3A0xe053bc15581e8412!2sPak%20Mat%20Western%20Cafe!5e1!3m2!1sen!2smy!4v1736307030863!5m2!1sen!2smy" 
+            width="100%" 
+            height="300" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+         </iframe>
+        </div>
+        <p><strong>Contact Number:</strong> 011-3615 2643</p>
+        <p><strong>Operating Hours:</strong>  Open 24 hours (Monday-Sunday)</p>
+      </div>
+    </div>
+  </div>
+
+  <p class="date-info">
+    <i>Last Updated:</i> <span id="last-updated"></span>
+  </p><br>
+  
+  <script>
+    document.getElementById('last-updated').innerText = new Date(document.lastModified).toDateString();
+  </script>
+
+</div>
+
+<!-- Scroll to Top/Bottom -->
+<div class="scroll-buttons">
+  <button id="scrollUp" class="scroll-btn"><i class="fas fa-arrow-up"></i></button>
+  <button id="scrollDown" class="scroll-btn"><i class="fas fa-arrow-down"></i></button>
+</div>
+
+<script>
+  document.getElementById('scrollUp').addEventListener('click', function () {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+
+  document.getElementById('scrollDown').addEventListener('click', function () {
+    window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+  });
+</script>
+
+<!-- Footer -->
+<footer>
+  <div class="footer-container">
+    <div class="footer-section office-info">
+      <h4>Office Information</h4>
+      <p>Travelokal Penang Office,</p>
+      <p>Tingkat 30, KOMTAR,</p>
+	  <p>10000 George Town, Penang</p>
+      <p>Phone: +6012 3456 789</p>
+    </div>
+	
+	<div class="footer-social">
+      <a href="https://www.facebook.com/travelokalpenang" target="_blank" class="social-link">
+        <i class="fa-brands fa-facebook"></i></a>
+      <a href="https://x.com/travelokalpng?s=21" target="_blank" class="social-link">
+        <i class="fa-brands fa-twitter"></i></a>
+      <a href="https://www.instagram.com/travellokal_penang?igsh=NTZyank3NzBwbXgx&utm_source=qr" target="_blank" class="social-link">
+        <i class="fa-brands fa-instagram"></i></a>
+    </div>	
+	
+    <div class="footer-section opening-hours">
+      <h4>Opening Hours</h4>
+      <p>Monday - Friday: 9 AM - 5 PM</p>
+      <p>Saturday: 10 AM - 2 PM</p>
+      <p>Sunday: Closed</p>
+    </div>
+  </div>
+
+  <div class="footer-copyright">
+    <p>&copy; 2024 Travelokal Penang. All Rights Reserved. | Disclaimer: For the best experience, use modern browsers like Google Chrome, and enable desktop site mode on mobile devices.</p>
+  </div>
+</footer>
